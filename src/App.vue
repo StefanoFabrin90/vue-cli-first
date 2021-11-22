@@ -5,12 +5,19 @@
     <Intro />
     <Intro />
     <Intro />
+    <section class="img">
+      <img src="./assets/logo.png" alt="">
+    </section>
+    
+    
   </div>
 </template>
 
 <script>
 import Header from '@/components/header.vue';
-import Intro from '@/components/intro.vue'
+import Intro from '@/components/intro.vue';
+
+
 export default {
   name: 'App',
   components: {
@@ -18,6 +25,8 @@ export default {
     // Header: Header
     Header,
     Intro,
+    
+
   }
 }
 </script>
