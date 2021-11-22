@@ -1,18 +1,23 @@
 <template>
   <div id="app">
-    <header>
-      <h1>test</h1>
-    </header>
+    <Header />
+
+    <Intro />
+    <Intro />
+    <Intro />
   </div>
 </template>
 
 <script>
-
-
+import Header from '@/components/header.vue';
+import Intro from '@/components/intro.vue'
 export default {
   name: 'App',
   components: {
-    
+    // posso scrivere anche solo il nome perche uguale Header,
+    // Header: Header
+    Header,
+    Intro,
   }
 }
 </script>
